@@ -12,5 +12,8 @@ public enum Constants {
     public static final String CACHE_INITIALDELAY_BEHANDLINGSGRUNNLAG = "${fint.consumer.cache.initialDelay.behandlingsgrunnlag:900000}";
     public static final String CACHE_FIXEDRATE_BEHANDLINGSGRUNNLAG = "${fint.consumer.cache.fixedRate.behandlingsgrunnlag:900000}";
     
+    public static final String CACHE_INITIALDELAY_PERSONOPPLYSNING = "${fint.consumer.cache.initialDelay.personopplysning:960000}";
+    public static final String CACHE_FIXEDRATE_PERSONOPPLYSNING = "${fint.consumer.cache.fixedRate.personopplysning:900000}";
+    
 
 }
