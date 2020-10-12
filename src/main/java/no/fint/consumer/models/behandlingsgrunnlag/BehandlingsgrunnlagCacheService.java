@@ -13,7 +13,6 @@ import no.fint.consumer.config.ConsumerProps;
 import no.fint.consumer.event.ConsumerEventUtil;
 import no.fint.event.model.Event;
 import no.fint.event.model.ResponseStatus;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
 import no.fint.relations.FintResourceCompatibility;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +29,7 @@ import java.util.stream.Collectors;
 import no.fint.model.personvern.kodeverk.Behandlingsgrunnlag;
 import no.fint.model.resource.personvern.kodeverk.BehandlingsgrunnlagResource;
 import no.fint.model.personvern.kodeverk.KodeverkActions;
+import no.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service
